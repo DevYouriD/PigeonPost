@@ -1,3 +1,37 @@
+/.idea/
+
+.idea
+
+# Java Minecraft Server Plugin
+/pigeonpostplugin/.idea/
+/pigeonpostplugin/cmake-build-*/
+/pigeonpostplugin/*.iws
+/pigeonpostplugin/out/
+/pigeonpostplugin/atlassian-ide-plugin.xml
+/pigeonpostplugin/com_crashlytics_export_strings.xml
+/pigeonpostplugin/crashlytics.properties
+/pigeonpostplugin/crashlytics-build.properties
+/pigeonpostplugin/fabric.properties
+/pigeonpostplugin/*.class
+/pigeonpostplugin/*.log
+/pigeonpostplugin/*.ctxt
+/pigeonpostplugin/.mtj.tmp/
+/pigeonpostplugin/*.jar
+/pigeonpostplugin/*.war
+/pigeonpostplugin/*.nar
+/pigeonpostplugin/*.ear
+/pigeonpostplugin/*.zip
+/pigeonpostplugin/*.tar.gz
+/pigeonpostplugin/*.rar
+/pigeonpostplugin/hs_err_pid*
+/pigeonpostplugin/replay_pid*
+/pigeonpostplugin/.gradle
+/pigeonpostplugin/build/*
+
+# =====================================================================================================================#
+
+# NodeJs Backend Server
+
 # Logs
 logs
 *.log

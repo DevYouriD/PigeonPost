@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>PigeonPost</title>
+    </head>
+
+    <body>
+        <h1>Server Status</h1>
+
+        <h2>Online Players</h2>
+        <ul id="players"></ul>
+
+        <script>
+            async function load() {
+                const res = await fetch('/online');
+                const data = await res.json();
+
+                document.getElementById('players').innerHTML =
+                    data.players.map(p => `<li>${p}</li>`).join('');
+            }
+
+            setInterval(load, 2000);
+            load();
+        </script>
+    </body>
+</html>

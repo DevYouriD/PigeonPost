@@ -1,0 +1,4 @@
+name: PigeonPost
+version: 1.0
+main: org.example.PigeonPostPlugin
+api-version: "1.21"
