@@ -16,7 +16,7 @@ public class PigeonPostPlugin extends JavaPlugin implements Listener {
 
     private final HttpClient http = HttpClient.newHttpClient();
 
-    private final String ENDPOINT = "http://192.168.2.4:3000/event";
+    private final String ENDPOINT = "http://pigeonpost:3000/event";
 
     @Override
     public void onEnable() {

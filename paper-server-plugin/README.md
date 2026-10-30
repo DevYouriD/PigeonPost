@@ -9,7 +9,7 @@
 
 3. Open your server using FileZilla or another FTP client and upload the .jar file into the plugins/ directory.
 
-4. RRestart the Minecraft server and check the logs for the plugin startup message:
+4. Restart the Minecraft server and check the logs for the plugin startup message:
 ```bash
 [PigeonPost] PigeonPost enabled
 ```
